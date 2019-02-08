@@ -6,52 +6,146 @@
           content="width=320.1, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no,minimal-ui">
     <title></title>
     <style>
-        * {
-            font-size: 12px;
+        *{
+            padding: 0;
+            margin: 0;
             box-sizing: border-box;
-            font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
         }
 
-        .xx {
-            color: #0288D1;
+        html,body{
+            height: 100%;
+            width: 100%;
+
+        }
+        .container{
+            display: flex;
+            flex-direction: row;
+            height: 100%;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+        .input>p{
+            color: #999;
+            text-align: center;
+            line-height: 1.5;
+        }
+        .input>div{
+            padding: 10px 40px;
+        }
+        input{
+            width: 100%;
+            border: 1px solid rgba(0,0,0,.3);
+            height: 30px;
+        }
+        button{
+            width:100%;
+            background-color: green;
+            text-align: center;
+            height: 30px;
+            line-height: 30px;
+            border: none;
+            color: #fff;
+            font-size: 14px;
+            border-radius: 4px;
+        }
+        .fadeIn{
+            transition: 1s;
+            opacity: 0;
+            z-index: -1;
         }
 
-        .xxx {
-            color: rgba(2, 136, 209, 1);
+        .body{
+            position: absolute;
+            top: 0;
+            width: 100%;
+            left: 0;
+            padding: 10px 20px;
+            color: #999;
+            transition-duration: 1s;
+            transition-delay: 5s;
+            z-index:-1;
         }
-        .C-brand {
-            color: #0288D1;
-            font-weight: normal;
+        h1{
+            text-align: center;
+            color: rgba(133,255,133,.9);
         }
-
+        p{
+            text-underline: dash;
+            margin-top: 20px;
+            line-height: 1.6;
+        }
+.hide{
+    display: none;
+}
     </style>
+
 </head>
 <body>
-<section>
-    <h3 class="C-brand">百時快捷酒店（上海金山城市沙灘店）<i class="jump-icon htlf-toRight"></i></h3>
-    <dl>
-        <dt><span>住客信息</span><span style="float: right; color: rgb(2, 136, 209); font-weight: 100;">重新發送確認電郵</span></dt>
-        <dt><span>住客信息</span><span style="float: right; color: rgb(2, 136, 209); font-weight: 200;">重新發送確認電郵</span></dt>
+<section class="container">
+    <section class="input">
+        <p>请计算出小罗狗子的生日日期乘以本人的生日日期的数值，填写在下面方框中，并按确认按钮！</p>
+        <div><input type="text"/></div>
+        <button>确认</button>
+    </section>
+    <div style="opacity: 0" class="body  hide">
+        <div class="page first-page">
+            <h1>个人2019年度规划</h1>
+            <p class="content">
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                值此新春伊始之际，为了做到对新的一年有更好的规划，本着不忘过去，展望未来的原则，特在此写下新年规划，以此为规范蓝本，
+                勉励并督促自己在新的一年里有所作为，此文章写给自己也给你，望与您共勉。
+                <br/>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                首先谈论的是新的一年工作事业上面的规划:
+                <br/>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                由于在工作方面有太多的不确定性，所以当我大概从两个方面考量，但原则是向着利益最大化的方向发展.
+                <br/>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                首先说明下工作的两种方向，不出很大意外的话，今年我应该还是从事本职工作。
+                第一种就是我还是继续留在携程，
+                第二种就是我离开携程。
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <br/>
+                第一种的话，按照去年达成的协议，我会在新的部门带领大概十个人左右的小团队，
+                然后年中工资可以达到3w，年底应当可以到3.5。全年预计 有3*17 + 6 +2 左右的收入。当然这只是我和boss
+                达成的协议，说说我的想法，如果选择第一种方案，我的目标很简单就是把团队带好，去弄几个成熟项目上线。
+                我需要做的是如何加强自己的领导水平，以及对全局的把控，这个是后话，放在后面说。
+                时间上前几个月可能需要花些时间在上面，希望你理解，别发小脾气。
+                大的规划有这几方面：
+                <br/>
+                1.每天花最少一个小时在专业知识书籍上面；<br/>
+                2.一周最少花3个小时在管理书籍上面；<br/>
+                3.实时更新自己的简历；<br/>
+                4.开始的几个月里会多花时间在工作上；<br/>
+                5.加强与老板之间的沟通；<br/>
 
-        <dt><span>住客信息</span><span style="float: right; color: rgb(2, 136, 209); font-weight: 300;">重新發送確認電郵</span></dt>
-
-        <dt><span>住客信息</span><span style="float: right; color: rgb(2, 136, 209); font-weight: 400;">重新發送確認電郵</span></dt>
-
-        <dt><span>住客信息</span><span style="float: right; color: rgb(2, 136, 209); font-weight: 500;">重新發送確認電郵</span></dt>
-
-        <dt><span>住客信息</span><span style="float: right; color: rgb(2, 136, 209); font-weight: 600;">重新發送確認電郵</span></dt>
-
-        <dt><span>住客信息</span><span style="float: right; color: rgb(2, 136, 209); font-weight: 700;">重新發送確認電郵</span></dt>
-
-        <dt><span>住客信息</span><span style="float: right; color: rgb(2, 136, 209); font-weight: 900;">重新發送確認電郵</span></dt>
-
-        <dt><span>住客信息</span><span style="float: right; color: rgb(2, 136, 209); font-weight: 800;">重新發送確認電郵</span></dt>
+                to be continue ....
 
 
 
 
-    </dl>
+            </p>
+        </div>
+
+    </div>
 </section>
+<script>
+    document.querySelector('button').addEventListener('click',function(){
+        const v = document.querySelector('input').value;
+        document.querySelector('.body').classList.remove('hide');
+
+        if(Number(v) === 25){
+            document.querySelector('.input').classList.add('fadeIn');
+
+            document.querySelector('.body').style.opacity = 1;
+            document.querySelector('.body').style.zIndex = 2;
+
+
+        }
+    })
+</script>
 
 </body>
 </html>
