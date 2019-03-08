@@ -210,6 +210,8 @@ import {Alert} from './';
 
 * 组件类文件需要放在名为\`components\`的目录下；
 
+* Interface 需要作为 model 单独拉出，文件名为interface;具体的interface 以 \`I+接口名\` 命名
+
 <font size='5px' color='#aa3454'>.js代码规范</font>
 
 在代码规范描述之前需要确定这么几个方向：
@@ -259,6 +261,7 @@ import {Alert} from './';
 | 缩写   | 别用没意义的缩写	 | \`let lastName = 'michael';\` | \`let lName = 'michael';\`
 | 常量   | 变量需要以大写+_的方式命名| \`const LAST_NAME = 'michael';\` | \`const LASTNAME = 'michael';\`
 | restful化函数名 | 又返回的函数需要带上动作描述，无返回的函数需要描述它是个啥 | \`let getName = ()=>{};let fetchData = ()=>{};let  listHandler = ()=>{};\` | \`let name = ()=>{};let data = ()=>{};let  list = ()=>{};\`
+| class 私有变量以_开头 | 从命名上区分 private 和public | \`  _get(){}\`
 
 语法规范
 
@@ -308,10 +311,7 @@ import {Alert} from './';
 
 * [函数](https://www.tslang.cn/docs/handbook/functions.html)
 
-* [枚举](https://www.tslang.cn/docs/handbook/enums.html)
-
-
-`;
+* [枚举](https://www.tslang.cn/docs/handbook/enums.html)`;
     function convert(){
         var c = document.getElementById("container");
         var converter = new showdown.Converter();
