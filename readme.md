@@ -2,9 +2,7 @@ Online CSS 架构与实现方案
 ===
 # ![](https://pic.english.c-ctrip.com/picaresenglish/ibu/ibucommon/images/v1/trip-logo.e7bdd3cf.png)
 
-##### Powered by [Sem小组](ibu_sem@Ctrip.com)
 
-###### Created by Neo xia ( [@Neo](xia_g@ctrip.com) )
 
 ---
 
