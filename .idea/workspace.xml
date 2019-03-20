@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="67223d2c-cc7d-45fb-96c3-0a9fc52dbd80" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <ignored path="gxia.github.io.iws" />
@@ -24,8 +23,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="383">
-              <caret line="2730" lean-forward="true" selection-start-line="2730" selection-end-line="2730" />
+            <state relative-caret-position="528">
+              <caret line="3030" column="7" lean-forward="true" selection-start-line="3030" selection-start-column="7" selection-end-line="3030" selection-end-column="7" />
               <folding>
                 <element signature="n#src#0;n#img#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -158,16 +157,15 @@
       <workItem from="1552024208668" duration="220000" />
       <workItem from="1552471752873" duration="1368000" />
       <workItem from="1552891964949" duration="3000" />
-      <workItem from="1553065870328" duration="1477000" />
+      <workItem from="1553065870328" duration="1990000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6726000" />
+    <option name="totallyTimeSpent" value="7239000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="2048" height="1152" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24925816" />
       <window_info id="Structure" order="1" weight="0.25" />
@@ -202,8 +200,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="383">
-          <caret line="2730" lean-forward="true" selection-start-line="2730" selection-end-line="2730" />
+        <state relative-caret-position="528">
+          <caret line="3030" column="7" lean-forward="true" selection-start-line="3030" selection-start-column="7" selection-end-line="3030" selection-end-column="7" />
           <folding>
             <element signature="n#src#0;n#img#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />

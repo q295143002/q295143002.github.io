@@ -3025,7 +3025,8 @@ import {Alert} from './';
     })
 
     setTimeout(function() {
-        window.postMessage('hi! RN');
+        var s = document.body.offsetHeight.toString();
+        window.postMessage(document.body.offsetHeight.toString());
     },5000)</script>
 </body>
 </html>
