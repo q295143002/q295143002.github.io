@@ -3019,14 +3019,15 @@ import {Alert} from './';
 </script>
 
 <script>
-
     window.document.addEventListener('message', function(e) {
         document.getElementById('container').innerHTML = e.data
     })
-
-    setTimeout(function() {
-        var s = document.body.offsetHeight.toString();
-        window.postMessage(document.body.offsetHeight.toString());
-    },5000)</script>
+    window.onload = function(){
+       setTimeout(function(){
+           var s = document.body.offsetHeight.toString();
+           window.postMessage(document.body.offsetHeight.toString());
+       },0)
+    }
+</script>
 </body>
 </html>
