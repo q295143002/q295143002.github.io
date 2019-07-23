@@ -1,0 +1,49 @@
+//////
+
+setTimeout(()=>{
+	console.log(12313);
+    setTimeout(()=>{
+	  console.log(11111)
+    })
+    Promise().resolve().then(()=>{console.log(111)})
+})
+
+    Promise().resolve().then(()=>{console.log(122211)})
+	  console.log(22)
+//////
+
+setTimeout(()=>{
+	console.log(12313);
+    setTimeout(()=>{
+	  console.log(11111)
+    })
+    Promise.resolve().then(()=>{console.log(111)})
+})
+
+    Promise.resolve().then(()=>{console.log(122211)})
+	  console.log(22)
+    //////
+    
+    
+    var x =new XMLHttpRequest();
+x.open('post','https://m.ctrip.com');
+x.send();
+x.onreadystatechange = function() {
+    console.log(x.readyState);
+   
+    if (x.readyState == 4) {
+       //如果可以进入if,则表示请求成功并且数据可用
+       console.log(232313131313);
+    }
+}
+var time = new Date();
+
+while (new Date()-time<1000){}
+console.log(123123333);
+while (new Date()-time<3000){}
+console.log(1234444444413);
+while (new Date()-time<5000){}
+
+
+console.log(12313);
+
